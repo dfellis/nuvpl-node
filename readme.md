@@ -4,7 +4,17 @@ A simple tool that takes 5 arguments from the command line and produces a predic
 
 ## Usage
 
-    Fill me in later!
+    Usage: nuvpl [options]
+    
+    Options:
+    
+        -h, --help          output usage information
+        -V, --version       output the version number
+        -t, --tbd [t]       The time-to-breakdown under normal, constant-voltage-stress conditions
+        -v, --vd [v]        The stress voltage applied to get the time-to-breakdown
+        -n , --n [n]        The Power Law constant "n"
+        -b, --beta [b]      The Weibull constant "beta"
+        -i, --input [file]  The Comma-Separated-Values file containing the voltage distribution (x,V); assumes first x = 0
 
 ## License (MIT)
 
