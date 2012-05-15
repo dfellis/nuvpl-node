@@ -2,6 +2,10 @@
 
 A simple tool that takes 5 arguments from the command line and produces a predicted time-to-breakdown for the given oxide.
 
+## Installation
+
+    npm install -g nuvpl
+
 ## Usage
 
     Usage: nuvpl [options]
