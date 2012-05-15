@@ -1,0 +1,14 @@
+{
+	"contributors": [
+		{"name": "David Ellis", "email": "d.f.ellis@ieee.org"}
+	],
+	"name": "nuvpl",
+	"version": "0.0.1",
+	"description": "Gate oxide breakdown prediction for the Non-Uniform Voltage Power Law for any given voltage distribution",
+	"bin": {
+		"nuvpl": "./nuvpl.js"
+	},
+	"dependencies": {
+		"commander": "*"
+	}
+}
